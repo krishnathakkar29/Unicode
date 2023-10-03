@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    min-height: 200px;
+    /* background-color: yellow; */
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+#wittenId{
+    text-align: center;
+}
+
+#heading{
+    text-align: center;
+}
+
+#writtenId{
+    /* display: inline-block; */
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+}
